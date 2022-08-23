@@ -1,0 +1,6 @@
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/bin/Debug/FirstProject.exe
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/bin/Debug/FirstProject.pdb
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.csproj.AssemblyReference.cache
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.csproj.CoreCompileInputs.cache
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.exe
+/Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.pdb
