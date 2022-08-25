@@ -544,7 +544,7 @@ namespace FirstProject
                Console.WriteLine(x);
                x = x + 2;
            }*/
-           int suma = 0, num, x = 1;
+           int suma = 0, num, x = 1, prom = 0;
            string linea;
            while (x <= 10)
            {
@@ -555,8 +555,12 @@ namespace FirstProject
                suma = suma + num;
                ++x;
            }
+
+           prom = suma / 10;
            Console.Write("La suma de los 10 numeros es de ");
            Console.WriteLine(suma);
+           Console.Write("El promedio de los 10 numeros es de ");
+           Console.WriteLine(prom);
         }
     }
 }
