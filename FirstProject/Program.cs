@@ -313,7 +313,7 @@ namespace FirstProject
                 }
             }*/
 
-            int totalPreguntas, totalCorrectas, promedio;
+            /*int totalPreguntas, totalCorrectas, promedio;
             string linea;
             Console.Write("Digite total preguntas: ");
             linea = Console.ReadLine();
@@ -343,6 +343,23 @@ namespace FirstProject
                         Console.WriteLine("Fuera de nivel");
                     }
                 }
+            }*/
+
+            int dia, mes, ano;
+            string linea;
+            Console.WriteLine("Ingrese un dia: ");
+            linea = Console.ReadLine();
+            dia = int.Parse(linea);
+            Console.WriteLine("Ingrese un mes: ");
+            linea = Console.ReadLine();
+            mes = int.Parse(linea);
+            Console.WriteLine("Ingrese un año: ");
+            linea = Console.ReadLine();
+            ano = int.Parse(linea);
+
+            if (dia == 25 && mes == 12)
+            {
+                Console.WriteLine("ES NAVIDAAD!");
             }
         }
     }
