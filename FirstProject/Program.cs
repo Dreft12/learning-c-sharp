@@ -627,7 +627,7 @@ namespace FirstProject
 
             promAltura = sumaAltura / n;
             Console.Write("El promedio de altura es ");
-            Console.Write(promAltura);*/
+            Console.Write(promAltura);
 
             float sueldo, suma = 0;
             int n, x = 1, cantidadMayor = 0, cantidadMenor = 0;
@@ -662,7 +662,25 @@ namespace FirstProject
             Console.Write("Cantidad empleados que cobran mas de 300: ");
             Console.WriteLine(cantidadMayor);
             Console.Write("Importe total que debe pagar la empresa: ");
-            Console.WriteLine(suma);
+            Console.WriteLine(suma);*/
+
+            int serie = 11, x = 1;
+            while (x <= 25)
+            {
+                Console.Write(serie);
+                Console.Write(" - ");
+                serie = serie + 11;
+                ++x;
+            }
+
+            int x = 1, termino;
+            while (x <= 25)
+            {
+                termino = x * 11;
+                Console.Write(termino);
+                Console.Write(" - ");
+                ++x;
+            }
         }
     }
 }
