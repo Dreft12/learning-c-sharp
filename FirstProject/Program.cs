@@ -488,7 +488,7 @@ namespace FirstProject
                }
            }*/
            
-           int num1, num2, num3;
+           /*int num1, num2, num3;
            string linea;
            Console.Write("Ingrese numero 1: ");
            linea = Console.ReadLine();
@@ -536,6 +536,13 @@ namespace FirstProject
                    Console.WriteLine("El mayor es ");
                    Console.WriteLine(num3);
                }
+           }*/
+
+           int x = 1;
+           while (x <= 100)
+           {
+               Console.WriteLine(x);
+               ++x;
            }
         }
     }
