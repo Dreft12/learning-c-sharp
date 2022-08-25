@@ -586,8 +586,28 @@ namespace FirstProject
            
            Console.Write("Cantidad piezas aptas: ");
            Console.WriteLine(cantidadAptas);*/
-           
-           
+
+           int x = 1, cantidadMayor = 0, cantidadMenor = 0;
+           string linea;
+           while (x <= 10)
+           {
+               Console.Write("Ingrese nota: ");
+               linea = Console.ReadLine();
+               if (int.Parse(linea) >= 7)
+               {
+                   ++cantidadMayor;
+               }
+               else
+               {
+                   ++cantidadMenor;
+               }
+
+               ++x;
+           }
+           Console.Write("Cantidad notas mayores a 7: ");
+           Console.WriteLine(cantidadMayor);
+           Console.Write("Cantidad notas menores a 7: ");
+           Console.WriteLine(cantidadMenor);
         }
     }
 }
