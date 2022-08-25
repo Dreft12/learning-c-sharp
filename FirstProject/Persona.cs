@@ -13,7 +13,6 @@ namespace FirstProject
             _nombre = Console.ReadLine();
             Console.Write("Ingrese la edad: ");
             _edad = int.Parse(Console.ReadLine());
-            
         }
 
         public void Imprimir()
@@ -22,15 +21,29 @@ namespace FirstProject
             Console.Write("Nombre: ");
             Console.WriteLine(_nombre);
             Console.Write("Edad: ");
-            Console.Write(_edad);
+            Console.WriteLine(_edad);
+        }
+
+        public void EsMayorDeEdad()
+        {
+            if (_edad >= 18)
+            {
+                Console.Write("Es mayor de edad la persona");
+            }
+            else
+            {
+                Console.Write("No es mayor de edad");
+            }
         }
 
         public static void Main(string[] args)
         {
-            Persona p1 = new Persona();
+            var p1 = new Persona();
             p1.Initialize();
             Console.WriteLine("------------------------");
             p1.Imprimir();
+            Console.WriteLine("------------------------");
+            p1.EsMayorDeEdad();
         }
     }
 }
