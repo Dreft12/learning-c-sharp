@@ -36,7 +36,7 @@ namespace FirstProject
             }
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var p1 = new Persona();
             p1.Initialize();
@@ -44,6 +44,6 @@ namespace FirstProject
             p1.Imprimir();
             Console.WriteLine("------------------------");
             p1.EsMayorDeEdad();
-        }
+        }*/
     }
 }
