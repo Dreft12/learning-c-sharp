@@ -457,7 +457,7 @@ namespace FirstProject
                }
            }*/
 
-           float sueldo, sueldoFinal;
+           /*float sueldo, sueldoFinal;
            int años;
            string linea;
            Console.Write("Ingrese salario actual: ");
@@ -485,6 +485,56 @@ namespace FirstProject
                {
                    Console.WriteLine("Sueldo sin cambios: ");
                    Console.WriteLine(sueldo);
+               }
+           }*/
+           
+           int num1, num2, num3;
+           string linea;
+           Console.Write("Ingrese numero 1: ");
+           linea = Console.ReadLine();
+           num1 = int.Parse(linea);
+           Console.Write("Ingrese numero 2: ");
+           linea = Console.ReadLine();
+           num2 = int.Parse(linea);
+           Console.Write("Ingrese numero 3: ");
+           linea = Console.ReadLine();
+           num3 = int.Parse(linea);
+
+           if (num1 < num2 && num1 < num3)
+           {
+               Console.WriteLine("El menor es ");
+               Console.WriteLine(num1);
+           }
+           else
+           {
+               if (num2 < num3)
+               {
+                   Console.WriteLine("El menor es ");
+                   Console.WriteLine(num2);
+               }
+               else
+               {
+                   Console.WriteLine("El menor es ");
+                   Console.WriteLine(num3);
+               }
+           }
+           
+           if (num1 > num2 && num1 > num3)
+           {
+               Console.WriteLine("El mayor es ");
+               Console.WriteLine(num1);
+           }
+           else
+           {
+               if (num2 > num3)
+               {
+                   Console.WriteLine("El mayor es ");
+                   Console.WriteLine(num2);
+               }
+               else
+               {
+                   Console.WriteLine("El mayor es ");
+                   Console.WriteLine(num3);
                }
            }
         }
