@@ -688,7 +688,7 @@ namespace FirstProject
                 Console.Write(x);
                 Console.Write(" - ");
                 x = x + 8;
-            }*/
+            }
 
             int sumaLista1 = 0, sumaLista2 = 0, x = 1;
             string linea;
@@ -723,7 +723,34 @@ namespace FirstProject
                 {
                     Console.WriteLine("Listas iguales");
                 }
+            }*/
+
+            int n, x = 1, impares = 0, pares = 0;
+            string linea;
+            Console.Write("Ingrese cantidad de numeros: ");
+            linea = Console.ReadLine();
+            n = int.Parse(linea);
+
+            while (x <= n)
+            {
+                Console.Write("Ingrese numero: ");
+                linea = Console.ReadLine();
+                if (int.Parse(linea) % 2 == 0)
+                {
+                    ++pares;
+                }
+                else
+                {
+                    ++impares;
+                }
+
+                ++x;
             }
+            
+            Console.Write("Cantidad de pares: ");
+            Console.WriteLine(pares);
+            Console.Write("Cantidad de impares: ");
+            Console.Write(impares);
         }
     }
 }
