@@ -361,8 +361,30 @@ namespace FirstProject
             {
                 Console.WriteLine("ES NAVIDAAD!");
             }*/
-            
-           /* int num1, num2, num3, suma, multi;
+
+            /* int num1, num2, num3, suma, multi;
+             string linea;
+             Console.Write("Ingrese numero 1: ");
+             linea = Console.ReadLine();
+             num1 = int.Parse(linea);
+             Console.Write("Ingrese numero 2: ");
+             linea = Console.ReadLine();
+             num2 = int.Parse(linea);
+             Console.Write("Ingrese numero 3: ");
+             linea = Console.ReadLine();
+             num3 = int.Parse(linea);
+ 
+             if (num1 == num2 && num2 == num3)
+             {
+                 suma = num1 + num2;
+                 multi = suma * num3;
+                 Console.WriteLine("la suma del primero y segundo es: ");
+                 Console.WriteLine(suma);
+                 Console.WriteLine("el producto de la suma y el tercero es: ");
+                 Console.WriteLine(multi);
+             }*/
+
+            /*int num1, num2, num3;
             string linea;
             Console.Write("Ingrese numero 1: ");
             linea = Console.ReadLine();
@@ -373,241 +395,239 @@ namespace FirstProject
             Console.Write("Ingrese numero 3: ");
             linea = Console.ReadLine();
             num3 = int.Parse(linea);
-
-            if (num1 == num2 && num2 == num3)
+ 
+            if (num1 < 10 && num2 < 10 && num3 < 10)
             {
-                suma = num1 + num2;
-                multi = suma * num3;
-                Console.WriteLine("la suma del primero y segundo es: ");
-                Console.WriteLine(suma);
-                Console.WriteLine("el producto de la suma y el tercero es: ");
-                Console.WriteLine(multi);
+                Console.WriteLine("Todos los numeros son menores que 10");
             }*/
-           
-           /*int num1, num2, num3;
-           string linea;
-           Console.Write("Ingrese numero 1: ");
-           linea = Console.ReadLine();
-           num1 = int.Parse(linea);
-           Console.Write("Ingrese numero 2: ");
-           linea = Console.ReadLine();
-           num2 = int.Parse(linea);
-           Console.Write("Ingrese numero 3: ");
-           linea = Console.ReadLine();
-           num3 = int.Parse(linea);
 
-           if (num1 < 10 && num2 < 10 && num3 < 10)
-           {
-               Console.WriteLine("Todos los numeros son menores que 10");
-           }*/
-           
-           /*int num1, num2, num3;
-           string linea;
-           Console.Write("Ingrese numero 1: ");
-           linea = Console.ReadLine();
-           num1 = int.Parse(linea);
-           Console.Write("Ingrese numero 2: ");
-           linea = Console.ReadLine();
-           num2 = int.Parse(linea);
-           Console.Write("Ingrese numero 3: ");
-           linea = Console.ReadLine();
-           num3 = int.Parse(linea);
+            /*int num1, num2, num3;
+            string linea;
+            Console.Write("Ingrese numero 1: ");
+            linea = Console.ReadLine();
+            num1 = int.Parse(linea);
+            Console.Write("Ingrese numero 2: ");
+            linea = Console.ReadLine();
+            num2 = int.Parse(linea);
+            Console.Write("Ingrese numero 3: ");
+            linea = Console.ReadLine();
+            num3 = int.Parse(linea);
+ 
+            if (num1 < 10 || num2 < 10 || num3 < 10)
+            {
+                Console.WriteLine("Alguno de los numeros es menor que 10");
+            }*/
 
-           if (num1 < 10 || num2 < 10 || num3 < 10)
-           {
-               Console.WriteLine("Alguno de los numeros es menor que 10");
-           }*/
-           
-           /*int x, y;
-           string linea;
-           Console.Write("Ingrese coordenada X: ");
-           linea = Console.ReadLine();
-           x = int.Parse(linea);
-           Console.Write("Ingrese coordenada Y: ");
-           linea = Console.ReadLine();
-           y = int.Parse(linea);
+            /*int x, y;
+            string linea;
+            Console.Write("Ingrese coordenada X: ");
+            linea = Console.ReadLine();
+            x = int.Parse(linea);
+            Console.Write("Ingrese coordenada Y: ");
+            linea = Console.ReadLine();
+            y = int.Parse(linea);
+ 
+            if (x > 0 && y > 0)
+            {
+                Console.WriteLine("Cuadrante 1");
+            }
+            else
+            {
+                if (x < 0 && y > 0)
+                {
+                    Console.WriteLine("Cuadrante 2");
+                }
+                else
+                {
+                    if (x < 0 && y < 0)
+                    {
+                        Console.WriteLine("Cuadrante 3");
+                    }
+                    else
+                    {
+                        if (x > 0 && y < 0)
+                        {
+                            Console.WriteLine("Cuadrante 4");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Se encuentra en el 0,0");
+                        }
+                    }
+                }
+            }*/
 
-           if (x > 0 && y > 0)
-           {
-               Console.WriteLine("Cuadrante 1");
-           }
-           else
-           {
-               if (x < 0 && y > 0)
-               {
-                   Console.WriteLine("Cuadrante 2");
-               }
-               else
-               {
-                   if (x < 0 && y < 0)
-                   {
-                       Console.WriteLine("Cuadrante 3");
-                   }
-                   else
-                   {
-                       if (x > 0 && y < 0)
-                       {
-                           Console.WriteLine("Cuadrante 4");
-                       }
-                       else
-                       {
-                           Console.WriteLine("Se encuentra en el 0,0");
-                       }
-                   }
-               }
-           }*/
+            /*float sueldo, sueldoFinal;
+            int años;
+            string linea;
+            Console.Write("Ingrese salario actual: ");
+            linea = Console.ReadLine();
+            sueldo = int.Parse(linea);
+            Console.Write("Ingrese años de antiguedad: ");
+            linea = Console.ReadLine();
+            años = int.Parse(linea);
+ 
+            if (sueldo < 500 && años >= 10)
+            {
+                sueldoFinal = sueldo + (sueldo * 0.2f);
+                Console.WriteLine("Nuevo sueldo a pagar con aumento del 20%: ");
+                Console.Write(sueldoFinal);
+            }
+            else
+            {
+                if (sueldo < 500)
+                {
+                    sueldoFinal = sueldo + (sueldo * 0.05f);
+                    Console.WriteLine("Nuevo sueldo a pagar con aumento del 5%: ");
+                    Console.Write(sueldoFinal);
+                }
+                else
+                {
+                    Console.WriteLine("Sueldo sin cambios: ");
+                    Console.WriteLine(sueldo);
+                }
+            }*/
 
-           /*float sueldo, sueldoFinal;
-           int años;
-           string linea;
-           Console.Write("Ingrese salario actual: ");
-           linea = Console.ReadLine();
-           sueldo = int.Parse(linea);
-           Console.Write("Ingrese años de antiguedad: ");
-           linea = Console.ReadLine();
-           años = int.Parse(linea);
+            /*int num1, num2, num3;
+            string linea;
+            Console.Write("Ingrese numero 1: ");
+            linea = Console.ReadLine();
+            num1 = int.Parse(linea);
+            Console.Write("Ingrese numero 2: ");
+            linea = Console.ReadLine();
+            num2 = int.Parse(linea);
+            Console.Write("Ingrese numero 3: ");
+            linea = Console.ReadLine();
+            num3 = int.Parse(linea);
+ 
+            if (num1 < num2 && num1 < num3)
+            {
+                Console.WriteLine("El menor es ");
+                Console.WriteLine(num1);
+            }
+            else
+            {
+                if (num2 < num3)
+                {
+                    Console.WriteLine("El menor es ");
+                    Console.WriteLine(num2);
+                }
+                else
+                {
+                    Console.WriteLine("El menor es ");
+                    Console.WriteLine(num3);
+                }
+            }
+            
+            if (num1 > num2 && num1 > num3)
+            {
+                Console.WriteLine("El mayor es ");
+                Console.WriteLine(num1);
+            }
+            else
+            {
+                if (num2 > num3)
+                {
+                    Console.WriteLine("El mayor es ");
+                    Console.WriteLine(num2);
+                }
+                else
+                {
+                    Console.WriteLine("El mayor es ");
+                    Console.WriteLine(num3);
+                }
+            }*/
 
-           if (sueldo < 500 && años >= 10)
-           {
-               sueldoFinal = sueldo + (sueldo * 0.2f);
-               Console.WriteLine("Nuevo sueldo a pagar con aumento del 20%: ");
-               Console.Write(sueldoFinal);
-           }
-           else
-           {
-               if (sueldo < 500)
-               {
-                   sueldoFinal = sueldo + (sueldo * 0.05f);
-                   Console.WriteLine("Nuevo sueldo a pagar con aumento del 5%: ");
-                   Console.Write(sueldoFinal);
-               }
-               else
-               {
-                   Console.WriteLine("Sueldo sin cambios: ");
-                   Console.WriteLine(sueldo);
-               }
-           }*/
-           
-           /*int num1, num2, num3;
-           string linea;
-           Console.Write("Ingrese numero 1: ");
-           linea = Console.ReadLine();
-           num1 = int.Parse(linea);
-           Console.Write("Ingrese numero 2: ");
-           linea = Console.ReadLine();
-           num2 = int.Parse(linea);
-           Console.Write("Ingrese numero 3: ");
-           linea = Console.ReadLine();
-           num3 = int.Parse(linea);
+            /*int x = 2;
+            while (x <= 100)
+            {
+                Console.WriteLine(x);
+                x = x + 2;
+            }*/
+            /*int suma = 0, num, x = 1, prom = 0;
+            string linea;
+            while (x <= 10)
+            {
+                Console.Write("Ingrese numero: ");
+                Console.WriteLine(x);
+                linea = Console.ReadLine();
+                num = int.Parse(linea);
+                suma = suma + num;
+                ++x;
+            }
+ 
+            prom = suma / 10;
+            Console.Write("La suma de los 10 numeros es de ");
+            Console.WriteLine(suma);
+            Console.Write("El promedio de los 10 numeros es de ");
+            Console.WriteLine(prom);*/
 
-           if (num1 < num2 && num1 < num3)
-           {
-               Console.WriteLine("El menor es ");
-               Console.WriteLine(num1);
-           }
-           else
-           {
-               if (num2 < num3)
-               {
-                   Console.WriteLine("El menor es ");
-                   Console.WriteLine(num2);
-               }
-               else
-               {
-                   Console.WriteLine("El menor es ");
-                   Console.WriteLine(num3);
-               }
-           }
-           
-           if (num1 > num2 && num1 > num3)
-           {
-               Console.WriteLine("El mayor es ");
-               Console.WriteLine(num1);
-           }
-           else
-           {
-               if (num2 > num3)
-               {
-                   Console.WriteLine("El mayor es ");
-                   Console.WriteLine(num2);
-               }
-               else
-               {
-                   Console.WriteLine("El mayor es ");
-                   Console.WriteLine(num3);
-               }
-           }*/
+            /*int cantidadAptas = 0, x = 1, n;
+            float longitud;
+            string linea;
+            Console.WriteLine("Ingrese cantidad de piezas: ");
+            linea = Console.ReadLine();
+            n = int.Parse(linea);
+ 
+            while (x <=n)
+            {
+                Console.Write("Ingrese longitud de la pieza: ");
+                Console.WriteLine(x);
+                linea = Console.ReadLine();
+                longitud = float.Parse(linea);
+ 
+                if (longitud >= 1.2 && longitud <= 1.3)
+                {
+                    ++cantidadAptas;
+                }
+ 
+                ++x;
+            }
+            
+            Console.Write("Cantidad piezas aptas: ");
+            Console.WriteLine(cantidadAptas);
+ 
+            int x = 1, cantidadMayor = 0, cantidadMenor = 0;
+            string linea;
+            while (x <= 10)
+            {
+                Console.Write("Ingrese nota: ");
+                linea = Console.ReadLine();
+                if (int.Parse(linea) >= 7)
+                {
+                    ++cantidadMayor;
+                }
+                else
+                {
+                    ++cantidadMenor;
+                }
+ 
+                ++x;
+            }
+            Console.Write("Cantidad notas mayores a 7: ");
+            Console.WriteLine(cantidadMayor);
+            Console.Write("Cantidad notas menores a 7: ");
+            Console.WriteLine(cantidadMenor);*/
 
-           /*int x = 2;
-           while (x <= 100)
-           {
-               Console.WriteLine(x);
-               x = x + 2;
-           }*/
-           /*int suma = 0, num, x = 1, prom = 0;
-           string linea;
-           while (x <= 10)
-           {
-               Console.Write("Ingrese numero: ");
-               Console.WriteLine(x);
-               linea = Console.ReadLine();
-               num = int.Parse(linea);
-               suma = suma + num;
-               ++x;
-           }
+            int n, x = 1;
+            float promAltura, sumaAltura = 0f;
+            string linea;
+            Console.Write("Ingrese cantidad de personas: ");
+            linea = Console.ReadLine();
+            n = int.Parse(linea);
+            while (x <= n)
+            {
+                Console.Write("Ingrese altura persona ");
+                Console.Write(x);
+                Console.Write(":");
+                linea = Console.ReadLine();
+                sumaAltura = sumaAltura + float.Parse(linea);
+                ++x;
+            }
 
-           prom = suma / 10;
-           Console.Write("La suma de los 10 numeros es de ");
-           Console.WriteLine(suma);
-           Console.Write("El promedio de los 10 numeros es de ");
-           Console.WriteLine(prom);*/
-
-           /*int cantidadAptas = 0, x = 1, n;
-           float longitud;
-           string linea;
-           Console.WriteLine("Ingrese cantidad de piezas: ");
-           linea = Console.ReadLine();
-           n = int.Parse(linea);
-
-           while (x <=n)
-           {
-               Console.Write("Ingrese longitud de la pieza: ");
-               Console.WriteLine(x);
-               linea = Console.ReadLine();
-               longitud = float.Parse(linea);
-
-               if (longitud >= 1.2 && longitud <= 1.3)
-               {
-                   ++cantidadAptas;
-               }
-
-               ++x;
-           }
-           
-           Console.Write("Cantidad piezas aptas: ");
-           Console.WriteLine(cantidadAptas);*/
-
-           int x = 1, cantidadMayor = 0, cantidadMenor = 0;
-           string linea;
-           while (x <= 10)
-           {
-               Console.Write("Ingrese nota: ");
-               linea = Console.ReadLine();
-               if (int.Parse(linea) >= 7)
-               {
-                   ++cantidadMayor;
-               }
-               else
-               {
-                   ++cantidadMenor;
-               }
-
-               ++x;
-           }
-           Console.Write("Cantidad notas mayores a 7: ");
-           Console.WriteLine(cantidadMayor);
-           Console.Write("Cantidad notas menores a 7: ");
-           Console.WriteLine(cantidadMenor);
+            promAltura = sumaAltura / n;
+            Console.Write("El promedio de altura es ");
+            Console.Write(promAltura);
         }
     }
 }
