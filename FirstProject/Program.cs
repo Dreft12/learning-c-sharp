@@ -538,12 +538,25 @@ namespace FirstProject
                }
            }*/
 
-           int x = 1;
+           /*int x = 2;
            while (x <= 100)
            {
                Console.WriteLine(x);
+               x = x + 2;
+           }*/
+           int suma = 0, num, x = 1;
+           string linea;
+           while (x <= 10)
+           {
+               Console.Write("Ingrese numero: ");
+               Console.WriteLine(x);
+               linea = Console.ReadLine();
+               num = int.Parse(linea);
+               suma = suma + num;
                ++x;
            }
+           Console.Write("La suma de los 10 numeros es de ");
+           Console.WriteLine(suma);
         }
     }
 }
