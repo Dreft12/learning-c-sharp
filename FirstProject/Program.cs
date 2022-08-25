@@ -662,7 +662,7 @@ namespace FirstProject
             Console.Write("Cantidad empleados que cobran mas de 300: ");
             Console.WriteLine(cantidadMayor);
             Console.Write("Importe total que debe pagar la empresa: ");
-            Console.WriteLine(suma);*/
+            Console.WriteLine(suma);
 
             int serie = 11, x = 1;
             while (x <= 25)
@@ -680,6 +680,49 @@ namespace FirstProject
                 Console.Write(termino);
                 Console.Write(" - ");
                 ++x;
+            }
+
+            int x = 8;
+            while (x <= 500)
+            {
+                Console.Write(x);
+                Console.Write(" - ");
+                x = x + 8;
+            }*/
+
+            int sumaLista1 = 0, sumaLista2 = 0, x = 1;
+            string linea;
+            while (x <= 15)
+            {
+                Console.Write("Digite elemento lista 1: ");
+                linea = Console.ReadLine();
+                sumaLista1 = sumaLista1 + int.Parse(linea);
+                ++x;
+            }
+            Console.WriteLine("--------------------------------");
+            x = 1;
+            while (x <= 15)
+            {
+                Console.Write("Digite elemento lista 2: ");
+                linea = Console.ReadLine();
+                sumaLista2 = sumaLista2 + int.Parse(linea);
+                ++x;
+            }
+
+            if (sumaLista1 > sumaLista2)
+            {
+                Console.WriteLine("La lista 1 tiene mayor valor acumulado");
+            }
+            else
+            {
+                if (sumaLista2 > sumaLista1)
+                {
+                    Console.WriteLine("La lista 2 tiene mayor valor acumulado");
+                }
+                else
+                {
+                    Console.WriteLine("Listas iguales");
+                }
             }
         }
     }
