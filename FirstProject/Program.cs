@@ -544,7 +544,7 @@ namespace FirstProject
                Console.WriteLine(x);
                x = x + 2;
            }*/
-           int suma = 0, num, x = 1, prom = 0;
+           /*int suma = 0, num, x = 1, prom = 0;
            string linea;
            while (x <= 10)
            {
@@ -560,7 +560,34 @@ namespace FirstProject
            Console.Write("La suma de los 10 numeros es de ");
            Console.WriteLine(suma);
            Console.Write("El promedio de los 10 numeros es de ");
-           Console.WriteLine(prom);
+           Console.WriteLine(prom);*/
+
+           /*int cantidadAptas = 0, x = 1, n;
+           float longitud;
+           string linea;
+           Console.WriteLine("Ingrese cantidad de piezas: ");
+           linea = Console.ReadLine();
+           n = int.Parse(linea);
+
+           while (x <=n)
+           {
+               Console.Write("Ingrese longitud de la pieza: ");
+               Console.WriteLine(x);
+               linea = Console.ReadLine();
+               longitud = float.Parse(linea);
+
+               if (longitud >= 1.2 && longitud <= 1.3)
+               {
+                   ++cantidadAptas;
+               }
+
+               ++x;
+           }
+           
+           Console.Write("Cantidad piezas aptas: ");
+           Console.WriteLine(cantidadAptas);*/
+           
+           
         }
     }
 }
