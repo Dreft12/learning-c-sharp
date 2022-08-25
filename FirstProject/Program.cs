@@ -445,7 +445,14 @@ namespace FirstProject
                    }
                    else
                    {
-                       Console.WriteLine("Cuadrante 4");
+                       if (x > 0 && y < 0)
+                       {
+                           Console.WriteLine("Cuadrante 4");
+                       }
+                       else
+                       {
+                           Console.WriteLine("Se encuentra en el 0,0");
+                       }
                    }
                }
            }
