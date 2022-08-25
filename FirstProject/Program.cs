@@ -401,7 +401,7 @@ namespace FirstProject
                Console.WriteLine("Todos los numeros son menores que 10");
            }*/
            
-           int num1, num2, num3;
+           /*int num1, num2, num3;
            string linea;
            Console.Write("Ingrese numero 1: ");
            linea = Console.ReadLine();
@@ -416,6 +416,38 @@ namespace FirstProject
            if (num1 < 10 || num2 < 10 || num3 < 10)
            {
                Console.WriteLine("Alguno de los numeros es menor que 10");
+           }*/
+           
+           int x, y;
+           string linea;
+           Console.Write("Ingrese coordenada X: ");
+           linea = Console.ReadLine();
+           x = int.Parse(linea);
+           Console.Write("Ingrese coordenada Y: ");
+           linea = Console.ReadLine();
+           y = int.Parse(linea);
+
+           if (x > 0 && y > 0)
+           {
+               Console.WriteLine("Cuadrante 1");
+           }
+           else
+           {
+               if (x < 0 && y > 0)
+               {
+                   Console.WriteLine("Cuadrante 2");
+               }
+               else
+               {
+                   if (x < 0 && y < 0)
+                   {
+                       Console.WriteLine("Cuadrante 3");
+                   }
+                   else
+                   {
+                       Console.WriteLine("Cuadrante 4");
+                   }
+               }
            }
         }
     }
