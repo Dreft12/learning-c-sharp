@@ -418,7 +418,7 @@ namespace FirstProject
                Console.WriteLine("Alguno de los numeros es menor que 10");
            }*/
            
-           int x, y;
+           /*int x, y;
            string linea;
            Console.Write("Ingrese coordenada X: ");
            linea = Console.ReadLine();
@@ -454,6 +454,37 @@ namespace FirstProject
                            Console.WriteLine("Se encuentra en el 0,0");
                        }
                    }
+               }
+           }*/
+
+           float sueldo, sueldoFinal;
+           int años;
+           string linea;
+           Console.Write("Ingrese salario actual: ");
+           linea = Console.ReadLine();
+           sueldo = int.Parse(linea);
+           Console.Write("Ingrese años de antiguedad: ");
+           linea = Console.ReadLine();
+           años = int.Parse(linea);
+
+           if (sueldo < 500 && años >= 10)
+           {
+               sueldoFinal = sueldo + (sueldo * 0.2f);
+               Console.WriteLine("Nuevo sueldo a pagar con aumento del 20%: ");
+               Console.Write(sueldoFinal);
+           }
+           else
+           {
+               if (sueldo < 500)
+               {
+                   sueldoFinal = sueldo + (sueldo * 0.05f);
+                   Console.WriteLine("Nuevo sueldo a pagar con aumento del 5%: ");
+                   Console.Write(sueldoFinal);
+               }
+               else
+               {
+                   Console.WriteLine("Sueldo sin cambios: ");
+                   Console.WriteLine(sueldo);
                }
            }
         }
