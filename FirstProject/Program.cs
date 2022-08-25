@@ -345,7 +345,7 @@ namespace FirstProject
                 }
             }*/
 
-            int dia, mes, ano;
+            /*int dia, mes, ano;
             string linea;
             Console.WriteLine("Ingrese un dia: ");
             linea = Console.ReadLine();
@@ -360,6 +360,28 @@ namespace FirstProject
             if (dia == 25 && mes == 12)
             {
                 Console.WriteLine("ES NAVIDAAD!");
+            }*/
+            
+            int num1, num2, num3, suma, multi;
+            string linea;
+            Console.Write("Ingrese numero 1: ");
+            linea = Console.ReadLine();
+            num1 = int.Parse(linea);
+            Console.Write("Ingrese numero 2: ");
+            linea = Console.ReadLine();
+            num2 = int.Parse(linea);
+            Console.Write("Ingrese numero 3: ");
+            linea = Console.ReadLine();
+            num3 = int.Parse(linea);
+
+            if (num1 == num2 && num2 == num3)
+            {
+                suma = num1 + num2;
+                multi = suma * num3;
+                Console.WriteLine("la suma del primero y segundo es: ");
+                Console.WriteLine(suma);
+                Console.WriteLine("el producto de la suma y el tercero es: ");
+                Console.WriteLine(multi);
             }
         }
     }
