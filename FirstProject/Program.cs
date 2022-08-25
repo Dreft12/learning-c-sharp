@@ -384,7 +384,7 @@ namespace FirstProject
                 Console.WriteLine(multi);
             }*/
            
-           int num1, num2, num3;
+           /*int num1, num2, num3;
            string linea;
            Console.Write("Ingrese numero 1: ");
            linea = Console.ReadLine();
@@ -399,6 +399,23 @@ namespace FirstProject
            if (num1 < 10 && num2 < 10 && num3 < 10)
            {
                Console.WriteLine("Todos los numeros son menores que 10");
+           }*/
+           
+           int num1, num2, num3;
+           string linea;
+           Console.Write("Ingrese numero 1: ");
+           linea = Console.ReadLine();
+           num1 = int.Parse(linea);
+           Console.Write("Ingrese numero 2: ");
+           linea = Console.ReadLine();
+           num2 = int.Parse(linea);
+           Console.Write("Ingrese numero 3: ");
+           linea = Console.ReadLine();
+           num3 = int.Parse(linea);
+
+           if (num1 < 10 || num2 < 10 || num3 < 10)
+           {
+               Console.WriteLine("Alguno de los numeros es menor que 10");
            }
         }
     }
