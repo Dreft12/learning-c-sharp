@@ -4,3 +4,10 @@
 /Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.csproj.CoreCompileInputs.cache
 /Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.exe
 /Users/jorgealdana/RiderProjects/FirstProject/FirstProject/obj/Debug/FirstProject.pdb
+E:\learning-c-sharp\FirstProject\obj\Debug\FirstProject.exe
+E:\learning-c-sharp\FirstProject\obj\Debug\FirstProject.pdb
+E:\learning-c-sharp\FirstProject\bin\Debug\FirstProject.exe
+E:\learning-c-sharp\FirstProject\bin\Debug\FirstProject.pdb
+E:\learning-c-sharp\FirstProject\obj\Debug\FirstProject.csproj.AssemblyReference.cache
+E:\learning-c-sharp\FirstProject\obj\Debug\FirstProject.csproj.SuggestedBindingRedirects.cache
+E:\learning-c-sharp\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
