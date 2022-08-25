@@ -313,8 +313,7 @@ namespace FirstProject
                 }
             }*/
 
-            int totalPreguntas, totalCorrectas;
-            float promedio;
+            int totalPreguntas, totalCorrectas, promedio;
             string linea;
             Console.Write("Digite total preguntas: ");
             linea = Console.ReadLine();
