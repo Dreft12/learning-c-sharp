@@ -607,7 +607,7 @@ namespace FirstProject
             Console.Write("Cantidad notas mayores a 7: ");
             Console.WriteLine(cantidadMayor);
             Console.Write("Cantidad notas menores a 7: ");
-            Console.WriteLine(cantidadMenor);*/
+            Console.WriteLine(cantidadMenor);
 
             int n, x = 1;
             float promAltura, sumaAltura = 0f;
@@ -627,7 +627,42 @@ namespace FirstProject
 
             promAltura = sumaAltura / n;
             Console.Write("El promedio de altura es ");
-            Console.Write(promAltura);
+            Console.Write(promAltura);*/
+
+            float sueldo, suma = 0;
+            int n, x = 1, cantidadMayor = 0, cantidadMenor = 0;
+            string linea;
+            Console.Write("Ingrese cantidad de empleados: ");
+            linea = Console.ReadLine();
+            n = int.Parse(linea);
+            while (x <= n)
+            {
+                Console.Write("Ingrese sueldo empleado ");
+                Console.Write(x);
+                Console.Write(": ");
+                linea = Console.ReadLine();
+                sueldo = float.Parse(linea);
+                suma = suma + sueldo;
+                if (sueldo >= 100 && sueldo <= 300)
+                {
+                    ++cantidadMenor;
+                }
+                else
+                {
+                    if (sueldo > 300)
+                    {
+                        ++cantidadMayor;
+                    }
+                }
+
+                ++x;
+            }
+            Console.Write("Cantidad empleados que cobran entre 100 y 300: ");
+            Console.WriteLine(cantidadMenor);
+            Console.Write("Cantidad empleados que cobran mas de 300: ");
+            Console.WriteLine(cantidadMayor);
+            Console.Write("Importe total que debe pagar la empresa: ");
+            Console.WriteLine(suma);
         }
     }
 }
