@@ -57,7 +57,7 @@ namespace FirstProject
             }
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var plano1 = new Plano();
             plano1.Initialize();
@@ -65,6 +65,6 @@ namespace FirstProject
             plano1.Imprimir();
             Console.WriteLine("----------------------");
             plano1.Cuadrante();
-        }
+        }*/
     }
 }

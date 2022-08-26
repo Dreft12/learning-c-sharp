@@ -39,6 +39,8 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Cuadrado.cs" />
+        <Compile Include="Empleado.cs" />
         <Compile Include="FirstClass.cs" />
         <Compile Include="Persona.cs" />
         <Compile Include="Plano.cs" />
