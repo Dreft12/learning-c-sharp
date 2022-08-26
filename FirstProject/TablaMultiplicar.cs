@@ -4,10 +4,10 @@ namespace FirstProject
 {
     public class TablaMultiplicar
     {
-        private int _num;
-        
+       
         public void Initialize()
         {
+            int _num;
             do
             {
                 Console.Write("Ingrese numero: ");
@@ -32,10 +32,10 @@ namespace FirstProject
             }
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var tabla = new TablaMultiplicar();
             tabla.Initialize();
-        }
+        }*/
     }
 }

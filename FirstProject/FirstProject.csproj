@@ -47,6 +47,8 @@
         <Compile Include="Plano.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SumaDosVectores.cs" />
+        <Compile Include="SumaVector.cs" />
         <Compile Include="TablaMultiplicar.cs" />
         <Compile Include="Triangulo.cs" />
     </ItemGroup>
