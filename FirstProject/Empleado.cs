@@ -32,7 +32,7 @@ namespace FirstProject
             }
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var empleado1 = new Empleado();
             empleado1.Initialize();
@@ -40,6 +40,6 @@ namespace FirstProject
             empleado1.Imprimir();
             Console.WriteLine("-------------------");
             empleado1.PagarImpuestos();
-        }
+        }*/
     }
 }

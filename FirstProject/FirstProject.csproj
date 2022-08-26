@@ -39,6 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Calculadora.cs" />
         <Compile Include="Cuadrado.cs" />
         <Compile Include="Empleado.cs" />
         <Compile Include="FirstClass.cs" />
