@@ -60,12 +60,12 @@ namespace FirstProject
             }
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var promedioNotaGeneral = new PromedioNotaGeneral();
             promedioNotaGeneral.Cargar();
             Console.WriteLine("---------------------------");
             promedioNotaGeneral.PromedioGeneral();
-        }
+        }*/
     }
 }
