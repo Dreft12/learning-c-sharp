@@ -48,7 +48,7 @@ namespace FirstProject
             Console.WriteLine(_num1 / _num2);
         }
 
-        public static void Main(string[] args)
+        /*public static void Main(string[] args)
         {
             var calculadora = new Calculadora();
             calculadora.Initialize();
@@ -62,6 +62,6 @@ namespace FirstProject
             calculadora.Multiplicacion();
             Console.WriteLine("------------------------------");
             calculadora.Division();
-        }
+        }*/
     }
 }
